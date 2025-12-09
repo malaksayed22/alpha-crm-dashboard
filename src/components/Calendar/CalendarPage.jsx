@@ -78,7 +78,7 @@ const CalendarPage = ({ onNavigate, currentPage }) => {
       <Sidebar onNavigate={onNavigate} currentPage={currentPage} />
       
       <main className="flex-1 overflow-y-auto bg-slate-50">
-        <div className="mx-auto max-w-7xl p-6">
+        <div className="mx-auto max-w-7xl p-4 pt-20 md:pt-6 md:p-6">
           <CalendarHeader onAddEvent={() => setShowAddModal(true)} />
           
           <div className="space-y-6">

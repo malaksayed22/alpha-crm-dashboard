@@ -159,7 +159,7 @@ const CustomersPage = ({ onNavigate, currentPage: activePage }) => {
       <Sidebar onNavigate={onNavigate} currentPage={activePage} />
       
       <main className="flex-1 overflow-y-auto">
-        <div className="mx-auto max-w-7xl p-6">
+        <div className="mx-auto max-w-7xl p-4 pt-20 md:pt-6 md:p-6">
           <CustomersHeader 
             onAddCustomer={() => setShowAddModal(true)}
             onExport={handleExport}
