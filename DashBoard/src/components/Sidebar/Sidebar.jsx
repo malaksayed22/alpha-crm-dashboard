@@ -39,7 +39,7 @@ const Sidebar = ({ onNavigate, currentPage }) => {
       {/* Sidebar */}
       <aside className={`${
         isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'
-      } md:translate-x-0 fixed md:static inset-y-0 left-0 z-40 w-64 flex flex-col border-r border-slate-200 bg-white p-4 transition-transform duration-300 ease-in-out`}
+      } md:translate-x-0 fixed md:static inset-y-0 left-0 z-40 w-64 flex flex-col border-r border-slate-200 bg-white p-4 transition-transform duration-300 ease-in-out`}>
       <div className="flex items-center gap-3 pb-4 border-b border-slate-200">
         <img src={logo} alt="Alpha Logo" className="rounded" style={{ width: '40px', height: '40px', objectFit: 'cover' }} />
         <h2 className="text-xl font-semibold">Alpha</h2>
